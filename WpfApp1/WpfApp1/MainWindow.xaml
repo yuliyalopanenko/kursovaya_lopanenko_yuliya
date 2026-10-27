@@ -1,0 +1,102 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Туристические агентства" 
+        Height="580" Width="900"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        Background="#F4F1EA"
+        FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <Style x:Key="MenuButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="b" CornerRadius="10"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="b" Property="Opacity" Value="0.85"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Шапка -->
+        <Border Grid.Row="0" Background="#3E4A3D" Padding="30,25">
+            <StackPanel>
+                <TextBlock Text="ТУРИСТИЧЕСКИЕ АГЕНТСТВА"
+                           FontSize="24" FontWeight="Bold"
+                           Foreground="#F4F1EA"/>
+                <TextBlock Text="Информационно-справочная система"
+                           FontSize="13" Foreground="#B8C4AE"
+                           Margin="0,5,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Меню -->
+        <UniformGrid Grid.Row="1" Columns="2" Rows="3"
+                     Margin="30,25,30,25">
+
+            <Button Name="btnTours" Content="Туры"
+                    Click="btnTours_Click"
+                    Background="#6B7F5C"
+                    Style="{StaticResource MenuButton}"/>
+
+            <Button Name="btnClients" Content="Клиенты"
+                    Click="btnClients_Click"
+                    Background="#8FA382"
+                    Style="{StaticResource MenuButton}"/>
+
+            <Button Name="btnEmployees" Content="Сотрудники"
+                    Click="btnEmployees_Click"
+                    Background="#6B7F5C"
+                    Style="{StaticResource MenuButton}"/>
+
+            <Button Name="btnRequests" Content="Заявки"
+                    Click="btnRequests_Click"
+                    Background="#8FA382"
+                    Style="{StaticResource MenuButton}"/>
+
+            <Button Name="btnReports" Content="Отчеты"
+                    Click="btnReports_Click"
+                    Background="#6B7F5C"
+                    Style="{StaticResource MenuButton}"/>
+
+            <Button Name="btnExit" Content="Выход"
+                    Click="btnExit_Click"
+                    Background="#5C4A3A"
+                    Style="{StaticResource MenuButton}"/>
+        </UniformGrid>
+
+        <!-- Статус-бар -->
+        <Border Grid.Row="2" Background="#EAE5DA" Padding="20,10"
+                BorderBrush="#D8D2C4" BorderThickness="0,1,0,0">
+            <Grid>
+                <TextBlock Name="tbStatus" Text="Готово к работе"
+                           Foreground="#5C4A3A" FontSize="12"
+                           HorizontalAlignment="Left"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

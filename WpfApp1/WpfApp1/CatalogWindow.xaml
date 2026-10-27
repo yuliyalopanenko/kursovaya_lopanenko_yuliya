@@ -1,0 +1,213 @@
+﻿<Window x:Class="WpfApp1.CatalogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Туристические агентства — Каталог туров" 
+        Height="800" Width="1300"
+        WindowStartupLocation="CenterScreen"
+        Background="#F4F1EA"
+        FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <Style x:Key="LoginButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="20,10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="b" CornerRadius="20"
+                                Background="{TemplateBinding Background}"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="b" Property="Opacity" Value="0.85"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CardBorder" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#000000" 
+                                      BlurRadius="10" 
+                                      ShadowDepth="2" 
+                                      Opacity="0.15"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ШАПКА -->
+        <Border Grid.Row="0" Background="#3E4A3D" Padding="30,20">
+            <Grid>
+                <StackPanel>
+                    <TextBlock Text="ТУРИСТИЧЕСКИЕ АГЕНТСТВА"
+                               FontSize="24" FontWeight="Bold"
+                               Foreground="#F4F1EA"/>
+                    <TextBlock Text="Найдите свой идеальный тур"
+                               FontSize="13" Foreground="#B8C4AE"
+                               Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <Button Name="btnLogin" 
+                        Content="Войти"
+                        VerticalAlignment="Center"
+                        Background="#6B7F5C"
+                        Style="{StaticResource LoginButton}"
+                        Click="btnLogin_Click" Margin="1114,0,0,0"/>
+            </Grid>
+        </Border>
+
+        <!-- ПАНЕЛЬ ПОИСКА -->
+        <Border Grid.Row="1" Background="#EAE5DA" Padding="30,15"
+                BorderBrush="#D8D2C4" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="Поиск:"
+                           VerticalAlignment="Center"
+                           Margin="0,0,10,0"
+                           Foreground="#5C4A3A"
+                           FontWeight="SemiBold"
+                           FontSize="14"/>
+
+                <TextBox Name="txtSearch" 
+                         Width="300" 
+                         Padding="10,7"
+                         FontSize="13"
+                         BorderBrush="#C9C2B4"
+                         Background="White"
+                         Margin="0,0,15,0"/>
+
+                <TextBlock Text="Страна:"
+                           VerticalAlignment="Center"
+                           Margin="0,0,8,0"
+                           Foreground="#5C4A3A"
+                           FontWeight="SemiBold"/>
+
+                <ComboBox Name="cmbCountry"
+                          Width="180"
+                          FontSize="13"
+                          Padding="8,5"
+                          Margin="0,0,15,0"/>
+
+                <Button Content="Найти"
+                        Click="btnSearch_Click"
+                        Background="#6B7F5C"
+                        Foreground="White"
+                        FontWeight="SemiBold"
+                        Padding="18,8"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Margin="0,0,10,0"/>
+
+                <Button Content="Сбросить"
+                        Click="btnReset_Click"
+                        Background="#8FA382"
+                        Foreground="White"
+                        FontWeight="SemiBold"
+                        Padding="18,8"
+                        BorderThickness="0"
+                        Cursor="Hand"/>
+            </StackPanel>
+        </Border>
+
+        <ScrollViewer Grid.Row="2" 
+                      VerticalScrollBarVisibility="Auto" 
+                      Padding="20">
+            <ItemsControl Name="icTours">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"
+                                   HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Style="{StaticResource CardBorder}"
+                                Width="330" Height="400"
+                                Cursor="Hand"
+                                MouseLeftButtonUp="TourCard_Click"
+                                Tag="{Binding}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="200"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Border Grid.Row="0" 
+                                        CornerRadius="12,12,0,0"
+                                        Background="#D8D2C4">
+                                    <Image Source="{Binding FotoUrl}" 
+                                           Stretch="UniformToFill"/>
+                                </Border>
+
+                                <StackPanel Grid.Row="1" Margin="15,12,15,12">
+                                    <TextBlock Text="{Binding Nazvanie}"
+                                               FontSize="16"
+                                               FontWeight="Bold"
+                                               Foreground="#3E4A3D"
+                                               TextTrimming="CharacterEllipsis"
+                                               MaxHeight="45"
+                                               TextWrapping="Wrap"/>
+
+                                    <TextBlock Margin="0,6,0,0"
+                                               FontSize="13"
+                                               Foreground="#8A7F6E">
+                                        <Run Text="📍 "/>
+                                        <Run Text="{Binding Strana}"/>
+                                        <Run Text=", "/>
+                                        <Run Text="{Binding Gorod}"/>
+                                    </TextBlock>
+
+                                    <TextBlock Margin="0,4,0,0"
+                                               FontSize="12"
+                                               Foreground="#8A7F6E">
+                                        <Run Text="📅 "/>
+                                        <Run Text="{Binding DataNachala, StringFormat=dd.MM.yyyy}"/>
+                                        <Run Text=" — "/>
+                                        <Run Text="{Binding DataOkonchaniya, StringFormat=dd.MM.yyyy}"/>
+                                    </TextBlock>
+
+                                    <TextBlock Margin="0,4,0,0"
+                                               FontSize="12"
+                                               Foreground="#8A7F6E">
+                                        <Run Text="🎫 Мест: "/>
+                                        <Run Text="{Binding KolichestvoMest}"/>
+                                    </TextBlock>
+
+                                    <TextBlock Margin="0,10,0,0"
+                                               FontSize="22"
+                                               FontWeight="Bold"
+                                               Foreground="#6B7F5C">
+                                        <Run Text="{Binding Stoimost, StringFormat=N0}"/>
+                                        <Run Text=" ₽"/>
+                                    </TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище user9_dbModelContainer" CdmEntityContainer="user9_dbEntities">
+    <EntitySetMapping Name="tyr_Dolzhnosti">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_Dolzhnosti">
+        <MappingFragment StoreEntitySet="tyr_Dolzhnosti">
+          <ScalarProperty Name="ID_Dolzhnosti" ColumnName="ID_Dolzhnosti" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tyr_Klienty">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_Klienty">
+        <MappingFragment StoreEntitySet="tyr_Klienty">
+          <ScalarProperty Name="ID_Klienta" ColumnName="ID_Klienta" />
+          <ScalarProperty Name="Familia" ColumnName="Familia" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="PasportnyeDannye" ColumnName="PasportnyeDannye" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tyr_Sotrudniki">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_Sotrudniki">
+        <MappingFragment StoreEntitySet="tyr_Sotrudniki">
+          <ScalarProperty Name="ID_Sotrudnika" ColumnName="ID_Sotrudnika" />
+          <ScalarProperty Name="Familia" ColumnName="Familia" />
+          <ScalarProperty Name="Imya" ColumnName="Imya" />
+          <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+          <ScalarProperty Name="ID_Dolzhnosti" ColumnName="ID_Dolzhnosti" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tyr_StatusyZayavok">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_StatusyZayavok">
+        <MappingFragment StoreEntitySet="tyr_StatusyZayavok">
+          <ScalarProperty Name="ID_Statusa" ColumnName="ID_Statusa" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tyr_Tury">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_Tury">
+        <MappingFragment StoreEntitySet="tyr_Tury">
+          <ScalarProperty Name="Opisanie" ColumnName="Opisanie" />
+          <ScalarProperty Name="FotoUrl" ColumnName="FotoUrl" />
+          <ScalarProperty Name="ID_Tura" ColumnName="ID_Tura" />
+          <ScalarProperty Name="Nazvanie" ColumnName="Nazvanie" />
+          <ScalarProperty Name="Strana" ColumnName="Strana" />
+          <ScalarProperty Name="Gorod" ColumnName="Gorod" />
+          <ScalarProperty Name="DataNachala" ColumnName="DataNachala" />
+          <ScalarProperty Name="DataOkonchaniya" ColumnName="DataOkonchaniya" />
+          <ScalarProperty Name="Stoimost" ColumnName="Stoimost" />
+          <ScalarProperty Name="KolichestvoMest" ColumnName="KolichestvoMest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tyr_Zayavki">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_Zayavki">
+        <MappingFragment StoreEntitySet="tyr_Zayavki">
+          <ScalarProperty Name="ID_Zayavki" ColumnName="ID_Zayavki" />
+          <ScalarProperty Name="NomerZayavki" ColumnName="NomerZayavki" />
+          <ScalarProperty Name="ID_Klienta" ColumnName="ID_Klienta" />
+          <ScalarProperty Name="ID_Tura" ColumnName="ID_Tura" />
+          <ScalarProperty Name="ID_Sotrudnika" ColumnName="ID_Sotrudnika" />
+          <ScalarProperty Name="ID_Statusa" ColumnName="ID_Statusa" />
+          <ScalarProperty Name="DataPodachi" ColumnName="DataPodachi" />
+          <ScalarProperty Name="Summa" ColumnName="Summa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tyr_Users">
+      <EntityTypeMapping TypeName="user9_dbModel.tyr_Users">
+        <MappingFragment StoreEntitySet="tyr_Users">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ID_Sotrudnika" ColumnName="ID_Sotrudnika" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="ID_User" ColumnName="ID_User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

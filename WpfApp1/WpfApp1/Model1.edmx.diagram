@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="238edf7915724ac2b12514c61adcab97" Name="Diagram1" ZoomLevel="62">
+        <EntityTypeShape EntityType="user9_dbModel.tyr_Dolzhnosti" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user9_dbModel.tyr_Klienty" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="user9_dbModel.tyr_Sotrudniki" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user9_dbModel.tyr_StatusyZayavok" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user9_dbModel.tyr_Tury" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user9_dbModel.tyr_Zayavki" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="user9_dbModel.FK_tyr_Sotrudniki_Dolzhnosti" ManuallyRouted="false" />
+        <AssociationConnector Association="user9_dbModel.FK_tyr_Zayavki_Klienty" ManuallyRouted="false" />
+        <AssociationConnector Association="user9_dbModel.FK_tyr_Zayavki_Sotrudniki" ManuallyRouted="false" />
+        <AssociationConnector Association="user9_dbModel.FK_tyr_Zayavki_Statusy" ManuallyRouted="false" />
+        <AssociationConnector Association="user9_dbModel.FK_tyr_Zayavki_Tury" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="user9_dbModel.tyr_Users" Width="1.5" PointX="5.25" PointY="5.625" />
+        <AssociationConnector Association="user9_dbModel.FK_tyr_Users_Sotrudniki" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

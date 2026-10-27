@@ -1,0 +1,249 @@
+﻿<Window x:Class="WpfApp1.ReportsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Отчёт о продажах" 
+        Height="700" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Background="#F4F1EA"
+        FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <Style x:Key="ActionButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="14,8"/>
+            <Setter Property="Margin" Value="0,0,8,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="b" CornerRadius="8"
+                                Background="{TemplateBinding Background}"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="b" Property="Opacity" Value="0.85"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SummaryCard" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="20,15"/>
+            <Setter Property="Margin" Value="8,0"/>
+            <Setter Property="BorderBrush" Value="#D8D2C4"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D8D2C4"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowHeight" Value="30"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#EDE8DD"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="CanUserAddRows" Value="False"/>
+            <Setter Property="CanUserDeleteRows" Value="False"/>
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="SelectionMode" Value="Single"/>
+        </Style>
+
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#6B7F5C"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Padding" Value="10,10"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <Style TargetType="DataGridCell">
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="#3E3A32"/>
+        </Style>
+
+        <Style TargetType="TabItem">
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="16,8"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Шапка -->
+        <Border Grid.Row="0" Background="#3E4A3D" Padding="25,18">
+            <TextBlock Text="Отчёт о продажах туров"
+                       FontSize="20" FontWeight="Bold"
+                       Foreground="#F4F1EA"/>
+        </Border>
+
+        <!-- Панель параметров -->
+        <Border Grid.Row="1" Background="#EAE5DA" Padding="20,15"
+                BorderBrush="#D8D2C4" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+
+                <TextBlock Text="Период с:" VerticalAlignment="Center" 
+                           Margin="0,0,6,0" Foreground="#5C4A3A" FontWeight="SemiBold"/>
+                <DatePicker Name="dpFrom" Width="140" Margin="0,0,12,0"
+                            FontSize="13" Height="32"/>
+
+                <TextBlock Text="по:" VerticalAlignment="Center" 
+                           Margin="0,0,6,0" Foreground="#5C4A3A" FontWeight="SemiBold"/>
+                <DatePicker Name="dpTo" Width="140" Margin="0,0,20,0"
+                            FontSize="13" Height="32"/>
+
+                <CheckBox Name="chkExcludeCancelled" 
+                          Content="Исключить отменённые"
+                          VerticalAlignment="Center"
+                          Margin="0,0,20,0"
+                          FontSize="13"
+                          Foreground="#5C4A3A"
+                          IsChecked="True"/>
+
+                <Button Content="Построить отчёт"
+                        Click="btnGenerate_Click"
+                        Background="#6B7F5C"
+                        Style="{StaticResource ActionButton}"/>
+
+                <Button Content="Период"
+                        Click="btnQuickPeriod_Click"
+                        Background="#8FA382"
+                        Style="{StaticResource ActionButton}"/>
+
+                <Button Content="Обновить"
+                        Click="btnRefresh_Click"
+                        Background="#5C4A3A"
+                        Style="{StaticResource ActionButton}"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Сводные карточки -->
+        <Grid Grid.Row="2" Margin="12,15,12,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Style="{StaticResource SummaryCard}">
+                <StackPanel>
+                    <TextBlock Text="Всего заявок" 
+                               FontSize="12" Foreground="#8A7F6E"/>
+                    <TextBlock Name="tbTotalCount" Text="0"
+                               FontSize="26" FontWeight="Bold"
+                               Foreground="#3E4A3D"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="1" Style="{StaticResource SummaryCard}">
+                <StackPanel>
+                    <TextBlock Text="Сумма продаж" 
+                               FontSize="12" Foreground="#8A7F6E"/>
+                    <TextBlock Name="tbTotalSum" Text="0 ₽"
+                               FontSize="26" FontWeight="Bold"
+                               Foreground="#6B7F5C"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="2" Style="{StaticResource SummaryCard}">
+                <StackPanel>
+                    <TextBlock Text="Средний чек" 
+                               FontSize="12" Foreground="#8A7F6E"/>
+                    <TextBlock Name="tbAvgSum" Text="0 ₽"
+                               FontSize="26" FontWeight="Bold"
+                               Foreground="#5C4A3A"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="3" Style="{StaticResource SummaryCard}">
+                <StackPanel>
+                    <TextBlock Text="Уникальных туров" 
+                               FontSize="12" Foreground="#8A7F6E"/>
+                    <TextBlock Name="tbUniqueTours" Text="0"
+                               FontSize="26" FontWeight="Bold"
+                               Foreground="#8FA382"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Вкладки -->
+        <TabControl Grid.Row="3" Margin="12,10,12,15"
+                    Background="Transparent" BorderThickness="0">
+
+            <!-- Вкладка 1: Детализация -->
+            <TabItem Header="Детализация заявок">
+                <DataGrid Name="dgDetails" Margin="0,10,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Номер" 
+                                            Binding="{Binding NomerZayavki}" Width="140"/>
+                        <DataGridTextColumn Header="Дата" 
+                                            Binding="{Binding DataPodachi, StringFormat=dd.MM.yyyy}" Width="100"/>
+                        <DataGridTextColumn Header="Клиент" 
+                                            Binding="{Binding ClientName}" Width="200"/>
+                        <DataGridTextColumn Header="Тур" 
+                                            Binding="{Binding TourName}" Width="*"/>
+                        <DataGridTextColumn Header="Страна" 
+                                            Binding="{Binding Strana}" Width="120"/>
+                        <DataGridTextColumn Header="Сотрудник" 
+                                            Binding="{Binding EmployeeName}" Width="160"/>
+                        <DataGridTextColumn Header="Статус" 
+                                            Binding="{Binding StatusName}" Width="120"/>
+                        <DataGridTextColumn Header="Сумма, ₽" 
+                                            Binding="{Binding Summa, StringFormat=N2}" Width="130"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <!-- Вкладка 2: По турам -->
+            <TabItem Header="Сводка по турам">
+                <DataGrid Name="dgByTours" Margin="0,10,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Тур" 
+                                            Binding="{Binding TourName}" Width="*"/>
+                        <DataGridTextColumn Header="Страна" 
+                                            Binding="{Binding Strana}" Width="140"/>
+                        <DataGridTextColumn Header="Кол-во продаж" 
+                                            Binding="{Binding Count}" Width="130"/>
+                        <DataGridTextColumn Header="Сумма, ₽" 
+                                            Binding="{Binding TotalSum, StringFormat=N2}" Width="160"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+
+            <!-- Вкладка 3: По статусам -->
+            <TabItem Header="Сводка по статусам">
+                <DataGrid Name="dgByStatuses" Margin="0,10,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Статус" 
+                                            Binding="{Binding StatusName}" Width="*"/>
+                        <DataGridTextColumn Header="Кол-во" 
+                                            Binding="{Binding Count}" Width="150"/>
+                        <DataGridTextColumn Header="Сумма, ₽" 
+                                            Binding="{Binding TotalSum, StringFormat=N2}" Width="200"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

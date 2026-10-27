@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище user9_dbModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tyr_Dolzhnosti">
+    <Key>
+      <PropertyRef Name="ID_Dolzhnosti" />
+    </Key>
+    <Property Name="ID_Dolzhnosti" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazvanie" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tyr_Klienty">
+    <Key>
+      <PropertyRef Name="ID_Klienta" />
+    </Key>
+    <Property Name="ID_Klienta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Familia" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Imya" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Otchestvo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PasportnyeDannye" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tyr_Sotrudniki">
+    <Key>
+      <PropertyRef Name="ID_Sotrudnika" />
+    </Key>
+    <Property Name="ID_Sotrudnika" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Familia" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Imya" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Otchestvo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID_Dolzhnosti" Type="int" Nullable="false" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tyr_StatusyZayavok">
+    <Key>
+      <PropertyRef Name="ID_Statusa" />
+    </Key>
+    <Property Name="ID_Statusa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazvanie" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tyr_Tury">
+    <Key>
+      <PropertyRef Name="ID_Tura" />
+    </Key>
+    <Property Name="ID_Tura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazvanie" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Strana" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Gorod" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="DataNachala" Type="date" Nullable="false" />
+    <Property Name="DataOkonchaniya" Type="date" Nullable="false" />
+    <Property Name="Stoimost" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+    <Property Name="KolichestvoMest" Type="int" Nullable="false" />
+    <Property Name="FotoUrl" Type="nvarchar" MaxLength="500" />
+    <Property Name="Opisanie" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="tyr_Users">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="ID_Sotrudnika" Type="int" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tyr_Zayavki">
+    <Key>
+      <PropertyRef Name="ID_Zayavki" />
+    </Key>
+    <Property Name="ID_Zayavki" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomerZayavki" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ID_Klienta" Type="int" Nullable="false" />
+    <Property Name="ID_Tura" Type="int" Nullable="false" />
+    <Property Name="ID_Sotrudnika" Type="int" />
+    <Property Name="ID_Statusa" Type="int" Nullable="false" />
+    <Property Name="DataPodachi" Type="date" Nullable="false" />
+    <Property Name="Summa" Type="decimal" Precision="12" Scale="2" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_tyr_Sotrudniki_Dolzhnosti">
+    <End Role="tyr_Dolzhnosti" Type="Self.tyr_Dolzhnosti" Multiplicity="1" />
+    <End Role="tyr_Sotrudniki" Type="Self.tyr_Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tyr_Dolzhnosti">
+        <PropertyRef Name="ID_Dolzhnosti" />
+      </Principal>
+      <Dependent Role="tyr_Sotrudniki">
+        <PropertyRef Name="ID_Dolzhnosti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tyr_Users_Sotrudniki">
+    <End Role="tyr_Sotrudniki" Type="Self.tyr_Sotrudniki" Multiplicity="0..1" />
+    <End Role="tyr_Users" Type="Self.tyr_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tyr_Sotrudniki">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Principal>
+      <Dependent Role="tyr_Users">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tyr_Zayavki_Klienty">
+    <End Role="tyr_Klienty" Type="Self.tyr_Klienty" Multiplicity="1" />
+    <End Role="tyr_Zayavki" Type="Self.tyr_Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tyr_Klienty">
+        <PropertyRef Name="ID_Klienta" />
+      </Principal>
+      <Dependent Role="tyr_Zayavki">
+        <PropertyRef Name="ID_Klienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tyr_Zayavki_Sotrudniki">
+    <End Role="tyr_Sotrudniki" Type="Self.tyr_Sotrudniki" Multiplicity="0..1" />
+    <End Role="tyr_Zayavki" Type="Self.tyr_Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tyr_Sotrudniki">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Principal>
+      <Dependent Role="tyr_Zayavki">
+        <PropertyRef Name="ID_Sotrudnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tyr_Zayavki_Statusy">
+    <End Role="tyr_StatusyZayavok" Type="Self.tyr_StatusyZayavok" Multiplicity="1" />
+    <End Role="tyr_Zayavki" Type="Self.tyr_Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tyr_StatusyZayavok">
+        <PropertyRef Name="ID_Statusa" />
+      </Principal>
+      <Dependent Role="tyr_Zayavki">
+        <PropertyRef Name="ID_Statusa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tyr_Zayavki_Tury">
+    <End Role="tyr_Tury" Type="Self.tyr_Tury" Multiplicity="1" />
+    <End Role="tyr_Zayavki" Type="Self.tyr_Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tyr_Tury">
+        <PropertyRef Name="ID_Tura" />
+      </Principal>
+      <Dependent Role="tyr_Zayavki">
+        <PropertyRef Name="ID_Tura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище user9_dbModelContainer">
+    <EntitySet Name="tyr_Dolzhnosti" EntityType="Self.tyr_Dolzhnosti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tyr_Klienty" EntityType="Self.tyr_Klienty" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tyr_Sotrudniki" EntityType="Self.tyr_Sotrudniki" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tyr_StatusyZayavok" EntityType="Self.tyr_StatusyZayavok" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tyr_Tury" EntityType="Self.tyr_Tury" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tyr_Users" EntityType="Self.tyr_Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tyr_Zayavki" EntityType="Self.tyr_Zayavki" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tyr_Sotrudniki_Dolzhnosti" Association="Self.FK_tyr_Sotrudniki_Dolzhnosti">
+      <End Role="tyr_Dolzhnosti" EntitySet="tyr_Dolzhnosti" />
+      <End Role="tyr_Sotrudniki" EntitySet="tyr_Sotrudniki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tyr_Users_Sotrudniki" Association="Self.FK_tyr_Users_Sotrudniki">
+      <End Role="tyr_Sotrudniki" EntitySet="tyr_Sotrudniki" />
+      <End Role="tyr_Users" EntitySet="tyr_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tyr_Zayavki_Klienty" Association="Self.FK_tyr_Zayavki_Klienty">
+      <End Role="tyr_Klienty" EntitySet="tyr_Klienty" />
+      <End Role="tyr_Zayavki" EntitySet="tyr_Zayavki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tyr_Zayavki_Sotrudniki" Association="Self.FK_tyr_Zayavki_Sotrudniki">
+      <End Role="tyr_Sotrudniki" EntitySet="tyr_Sotrudniki" />
+      <End Role="tyr_Zayavki" EntitySet="tyr_Zayavki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tyr_Zayavki_Statusy" Association="Self.FK_tyr_Zayavki_Statusy">
+      <End Role="tyr_StatusyZayavok" EntitySet="tyr_StatusyZayavok" />
+      <End Role="tyr_Zayavki" EntitySet="tyr_Zayavki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tyr_Zayavki_Tury" Association="Self.FK_tyr_Zayavki_Tury">
+      <End Role="tyr_Tury" EntitySet="tyr_Tury" />
+      <End Role="tyr_Zayavki" EntitySet="tyr_Zayavki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

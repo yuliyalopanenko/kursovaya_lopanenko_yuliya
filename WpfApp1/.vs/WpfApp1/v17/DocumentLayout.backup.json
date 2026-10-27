@@ -1,0 +1,536 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|c:\\users\\qwerty\\desktop\\\u044F\u0433\u043A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\wpfapp1\\wpfapp1\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\catalogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\tourdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\tourdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\tourdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\tourdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\catalogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\catalogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\tourswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\tourswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\requesteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\requesteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\reportswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\reportswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\employeeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\employeeswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\tourswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\tourswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\clientswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\clientswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\employeeswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\employeeswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\requestswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\requestswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\reportswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\reportswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\clienteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\clienteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\clienteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\clienteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\requesteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\requesteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\toureditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\toureditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\statuschangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\statuschangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\requestswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\requestswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\employeeeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\employeeeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\clientswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\clientswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\statuschangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\statuschangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\employeeeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\employeeeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\wpfapp1\\toureditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C41CB8C-375F-4BC2-A50F-1AFE8E6611A0}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\toureditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 394,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\CurrentUser.cs",
+              "RelativeToolTip": "WpfApp1\\CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T21:49:22.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TourDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\TourDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourDetailsWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\TourDetailsWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T21:45:01.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\Model1.edmx",
+              "RelativeDocumentMoniker": "WpfApp1\\Model1.edmx",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "WpfApp1\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-10-02T08:27:05.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-14T13:11:16.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T08:21:26.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\CatalogWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\CatalogWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\CatalogWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\CatalogWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-14T13:09:54.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TourDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\TourDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourDetailsWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\TourDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-20T21:44:01.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CatalogWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\CatalogWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\CatalogWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\CatalogWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\CatalogWindow.xaml.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwIEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:10:37.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestEditWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\RequestEditWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestEditWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\RequestEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:20:00.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ReportsWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ReportsWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ReportsWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\ReportsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T14:11:09.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ToursWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ToursWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ToursWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ToursWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\ToursWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T08:46:33.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeesWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\EmployeesWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeesWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\EmployeesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:16:56.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:11:40.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "WpfApp1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-14T13:23:26.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClientEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ClientEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientEditWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ClientEditWindow.xaml.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAowJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:16:14.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClientEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientEditWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ClientEditWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientEditWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\ClientEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:15:51.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ToursWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ToursWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ToursWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ToursWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ToursWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T08:47:17.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:23:39.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EmployeesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeesWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\EmployeesWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:17:12.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RequestsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\RequestsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestsWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\RequestsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:19:26.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ReportsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ReportsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ReportsWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ReportsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T14:12:06.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T08:21:24.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RequestEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\RequestEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestEditWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\RequestEditWindow.xaml.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAswPsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:20:10.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClientsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ClientsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientsWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ClientsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:15:18.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TourEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourEditWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\TourEditWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourEditWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\TourEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:13:28.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StatusChangeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\StatusChangeWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\StatusChangeWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\StatusChangeWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\StatusChangeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:20:39.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RequestsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestsWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\RequestsWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\RequestsWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\RequestsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:19:15.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmployeeEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeeEditWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\EmployeeEditWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeeEditWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\EmployeeEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:17:43.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClientsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientsWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ClientsWindow.xaml",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\ClientsWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\ClientsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-12T13:14:57.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TourEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\TourEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\TourEditWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\TourEditWindow.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAuwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:13:52.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StatusChangeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\StatusChangeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\StatusChangeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\StatusChangeWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\StatusChangeWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:20:50.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EmployeeEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeeEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EmployeeEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qwerty\\Desktop\\\u042F\u0413\u041A\\\u043A\u0443\u0440\u0441\u0430\u0447 2.0\\WpfApp1\\WpfApp1\\EmployeeEditWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\EmployeeEditWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:17:53.755Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
